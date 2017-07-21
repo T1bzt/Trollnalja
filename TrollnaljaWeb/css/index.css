@@ -88,8 +88,9 @@ header a:hover {
     background: url("../images/TornalaOnMap.png") #cccccc no-repeat center;
     background-size: contain;
     text-align: center;
-    font-size: 150%;
-    line-height: 100%;
+    font-size: 130%;
+    line-height: 80%;
+
 }
 
 #showcase .container h1 {
@@ -127,7 +128,7 @@ article {
 }
 
 article h2 {
-    font-size: 300%;
+    font-size: 3em;
     margin: 0;
 }
 
@@ -135,6 +136,8 @@ article h2 {
     background-color: #000000;
     color: white;
     text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
 }
 
 .articleImage img{
@@ -149,9 +152,10 @@ article h2 {
 }
 
 time {
-    float: right;
-    font-size: 30%;
-    padding-top: 40px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 80%;
 }
 
 /*footer*/
