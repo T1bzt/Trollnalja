@@ -96,6 +96,7 @@ header a:hover {
     margin-top: 120px;
 }
 
+/*Newsletter*/
 #newsletter {
     padding: 20px;
     color: #ffffff;
@@ -115,4 +116,50 @@ header a:hover {
     padding: 4px;
     height: 25px;
     width: 250px;
+}
+
+/*Articles*/
+
+article {
+    margin-top: 20px;
+    border: solid #e8491d 5px;
+    background: #cccccc;
+}
+
+article h2 {
+    font-size: 300%;
+    margin: 0;
+}
+
+.articleTitle {
+    background-color: #000000;
+    color: white;
+    text-transform: capitalize;
+}
+
+.articleImage img{
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
+
+time {
+    float: right;
+    font-size: 30%;
+    padding-top: 40px;
+}
+
+/*footer*/
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #e8491d;
+    text-align: center;
 }
