@@ -12,6 +12,9 @@ body {
     overflow: hidden;
 }
 
+.container2 {
+    overflow: hidden;
+}
 ul {
     margin: 0;
     padding: 0;
@@ -132,7 +135,7 @@ article h2 {
     margin: 0;
 }
 
-.articleTitle {
+.articleTitle{
     background-color: #000000;
     color: white;
     text-transform: capitalize;
@@ -166,4 +169,31 @@ footer {
     color: white;
     background-color: #e8491d;
     text-align: center;
+}
+
+/*games*/
+.gameImage img{
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
+
+.gameTitle {
+    background-color: #000000;
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+}
+
+.game {
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    min-height: 500px;
 }
