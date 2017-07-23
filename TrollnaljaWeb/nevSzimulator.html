@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trollnalja | Mi a gömöri neved?</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="Who-Wants-to-Be-a-Millionaire-master/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/nevSzimulator.js" ></script>
+</head>
+<body>
+<form>
+    <div class="container">
+        Vezetékneved:<br>
+        <input type="text" name="lastname" value="Kovács">
+        <br>
+        Keresztneved:<br>
+        <input type="text" name="firstname" value="János">
+        <br><br>
+        <p><input type="button" id="nevSzimulator" value="Mi a gömöri nevem?"></p>
+    </div>
+</form>
+<script>
+    $( "p" ).click(function() {
+        $("body").empty();
+        $("body").append("<div style='font-size: 20em; color: red; text-align: center'>GETN</div>");
+    });
+</script>
+</body>
+</html>
