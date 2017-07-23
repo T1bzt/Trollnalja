@@ -8,7 +8,9 @@
         <meta name="keywords" content="Trollnalja, Tornalja, Gömör, gecmó, getn, vromondzsol, szklendondzsonsz, germondzsonsz">
         <meta name="author" content="brThong">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+
         <title>Trollnalja | Főoldal</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
         <header>
@@ -19,11 +21,11 @@
                 </div>
                 <nav>
                     <ul>
-                        <li class="current"><a href="index.html">Főoldal</a></li>
-                        <li><a href="gallery.html">Galéria</a></li>
-                        <li><a href="contacts.html">Elérhetőségeink</a></li>
-                        <li><a href="game.html">Játékok</a></li>
-                        <li><a href="about.html">Rólunk</a></li>
+                        <li class="current"><a class="option" href="index.html">Főoldal</a></li>
+                        <li><a class="option" href="gallery.html">Galéria</a></li>
+                        <li><a class="option" href="contacts.html">Üzenet</a></li>
+                        <li><a class="option" href="game.html">Játékok</a></li>
+                        <li><a class="option" href="about.html">Rólunk</a></li>
                     </ul>
                 </nav>
             </div>
@@ -31,16 +33,14 @@
 
         <section id="showcase">
             <div class="container">
-                <h1>Trollnalja és vidéke</h1>
-                <p>Engedd el magad, és légy gömöri!</p>
             </div>
         </section>
 
         <section id="newsletter">
             <div class="container">
-                <h2>Ne maradj le semmiről!</h2>
+                <h2 class="pofazas">Ne maradj le semmiről!</h2>
                 <form>
-                    <input type="email" placeholder="Email-címed...">
+                    <input  style="width: 100%" type="email" placeholder="Email-címed...">
                     <button type="submit" class="button_1">Feliratkozás</button>
                 </form>
             </div>
@@ -48,32 +48,32 @@
 
         <section id="articles">
             <div class="container">
-                <article>
+                <article id="TroArticles">
                     <div class="articleTitle">
                         <h2>asd</h2>
                         <time>2017.07.21.</time>
                     </div>
-                    <p>Vestibulum tellus dui, tincidunt nec aliquet sed, maximus ut ante. Fusce rhoncus sagittis blandit. Integer id venenatis neque, vel suscipit augue. Duis feugiat dolor quis ultrices vehicula. Mauris pulvinar facilisis ex, et ultricies enim cursus eget. Proin commodo eleifend orci sed venenatis. Vestibulum non purus commodo ante ullamcorper ultricies vitae sit amet libero. Aliquam leo dui, semper congue eros vitae, aliquam vulputate erat. Cras cursus purus id rhoncus rhoncus. Sed nec hendrerit ex, id rhoncus erat. In eget metus in justo molestie porttitor.</p>
+                    <p class="articleBegenning">Vestibulum tellus dui, tincidus vitae sit amet libero. Aliquam leo dui, semper congue eros vitae, aliquam vulputate erat. Cras cursus purus id rhoncus rhoncus. Sed nec hendrerit ex, id rhoncus erat. In eget metus in justo molestie porttitor.</p>
                     <div class="articleImage">
                         <img src="images/CoffeeCigarette.jpg">
                     </div>
                 </article>
                 <article>
                     <div class="articleTitle">
-                        <h2>asdaasdasdasd</h2>
+                        <h2>asdaad</h2>
                         <time>2017.07.21.</time>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet diam ac arcu imperdiet euismod. Fusce quis elit a dolor mollis laoreet. Etiam malesuada commodo tempus. Cras eu erat non elit venenatis aliquet et et turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc nec diam quis urna ullamcorper porta a eu mi. Suspendisse lobortis lacinia lectus. Quisque ultricies malesuada enim, sed faucibus nisl pellentesque in. Nunc sed felis feugiat, bibendum dolor in, faucibus nisi. Etiam euismod turpis ante, rutrum varius mi varius ac. Morbi sodales neque eget justo feugiat cursus.</p>
+                    <p class="articleBegenning">Lorem ipsum dolora eu mi. Suspenm, sed faucibus nisl pellentesque in. Nunc sed felis feugiat, bibendum dolor in, faucibus nisi. Etiam euismod turpis ante, rutrum varius mi varius ac. Morbi sodales neque eget justo feugiat cursus.</p>
                     <div class="articleImage">
                         <img src="images/SkodaFelicia.jpg">
                     </div>
                 </article>
                 <article>
                     <div class="articleTitle">
-                        <h2>bbbbbbbbbbbb</h2>
+                        <h2>bbbbbbbbb</h2>
                         <time>2017.07.21.</time>
                     </div>
-                    <p>Etiam egestas mi ut ligula efficitur tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum metus ac lorem lacinia, in feugiat mi tincidunt. Duis ut nisi elit. Mauris at augue posuere, imperdiet ligula bibendum, posuere sapien. Donec hendrerit erat sed lorem tincidunt aliquam. Nam tincidunt sed sem quis molestie. Phasellus metus massa, dictum nec congue ut, rutrum ut libero.</p>
+                    <p class="articleBegenning">Etiam egestas mi usellus metus massa, dictum nec congue ut, rutrum ut libero.</p>
                     <div class="articleImage">
                         <img src="images/JanKollar.jpg">
                     </div>
@@ -85,5 +85,10 @@
             <small>Created by BrThong, Copyright &copy; 2017</small>
         </footer>
 
+
+
+
+        <script src="js/script.js">
+        </script>
     </body>
 </html>
