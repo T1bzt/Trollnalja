@@ -1,20 +1,14 @@
-$(function () {
-
-    /*$( "#zaszloSk" ).click(function() {
-        $(".hu").attr('hidden', true);
-        $(".sk").attr('hidden', false);
+$(document).ready(function () {
+    $( "#zaszloSk" ).click(function() {
+        $('.sk').css("display", "block");
+        $('.hu').css("display", "none");
     });
+});
 
-    $( "#zaszloHu" ).click(function () {
-        $(".hu").attr('hidden', false);
-        $(".sk").attr('hidden', true);
-    });*/
-
-    /*$( "#zaszloSk" ).click(function() {
-        $(".sk").show();
-        $(".hu").hide();
-    });*/
-
-
+$(document).ready(function () {
+    $( "#zaszloHu" ).click(function() {
+        $('.sk').css("display", "none");
+        $('.hu').css("display", "block");
+    });
 });
 
