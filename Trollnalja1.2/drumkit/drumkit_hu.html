@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="drumkit/style.css">
+  <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
 </head>
 <body>
+<audio loop autoplay>
+  <source src="drumkit/sounds/RapBeat1.mp3">
+</audio>
 <div class="languages">
   <a href="../games.html" class="navbar-brand"><img src="../images/TrollnaljaLogo.png" style="float: left"></a>
 
@@ -54,6 +58,9 @@
     <!--</div>-->
   </div>
 
+
+
+
   <audio data-key="65" src="drumkit/sounds/clap.wav"></audio>
   <audio data-key="83" src="drumkit/sounds/anyad.wav"></audio>
   <audio data-key="68" src="drumkit/sounds/fasszopó.wav"></audio>
@@ -79,6 +86,21 @@
     audio.currentTime = 0;
     audio.play();
   }
+  
+  $(document).ready(function () {
+      $(".key").click(function () {
+          var audioN = $(this).attr('data-key');
+          /*$("audio[data-key='audioN']").play();*/
+          /*const audio = $(this).attr('data-key');
+          const key = $("div").attr('data-key');
+          if (!audio) return;
+
+          key.classList.add('playing');
+          audio.currentTime = 0;
+          audio.play();*/
+          playSound(audioN);
+      })
+  })
 
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));

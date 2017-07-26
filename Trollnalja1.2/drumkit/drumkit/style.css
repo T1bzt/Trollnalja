@@ -18,6 +18,10 @@ body,html {
   justify-content: center;
 }
 
+.keys{
+  display: flex;
+  flex: 1;
+}
 .key {
   border: .4rem solid black;
   border-radius: .5rem;
@@ -31,6 +35,7 @@ body,html {
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
 }
+
 
 .playing {
   transform: scale(1.1);
