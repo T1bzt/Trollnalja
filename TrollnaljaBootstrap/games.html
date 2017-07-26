@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Trollságok Tornalja és környékéről">
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet"  type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/social.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
     <title>Trollnalja | Játékok</title>
 </head>
@@ -29,13 +31,14 @@
                 <a href="index.html" class="navbar-brand">Trollnalja és vidéke</a>
             </div><!--End navbar header-->
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <a href="" class="btn btn-danger navbar-btn navbar-right">Valami</a>
+                <img class="navbar-right" id="zaszloSk" src="images/zaszlo_szlovakia.gif"  style="height: 50px">
+                <img class="navbar-right"  id="zaszloHu" src="images/magyar%20zaszlo.png" style="height: 50px; padding-right: 10px">
                 <ul  class="nav navbar-nav">
                     <li><a href="index.html">Főoldal</a></li>
                     <li><a href="ResponsiveImageGallery/index.html">Galéria</a></li>
                     <li><a href="games.html">Játékok</a></li>
-                    <li><a href="#contactUs">Elérhetőségeink</a></li>
-                    <li><a href="#about">Rólunk</a></li>
+                    <li><a href="contacts.html">Elérhetőségeink</a></li>
+                    <li><a href="about.html">Rólunk</a></li>
                 </ul>
             </div>
         </div><!--End container-->
@@ -43,12 +46,17 @@
 
     <div class="jumbotron"><!--Jumbotron-->
         <div class="container text-center"><!--Container-->
-            <h1>Trollnalja és vidéke</h1>
-            <p>Engedd el magad, és légy gömöri!</p>
+            <h1 class="hu">Trollnalja és vidéke</h1>
+            <h1  class="sk">Trollnaľa a okolie</h1>
+            <p class="hu">Engedd el magad, és légy gömöri!</p>
+            <p  hidden class="sk">Uvonli seba a buď gemerský!</p>
             <div class="btn-group">
-                <a href="" class="btn btn-lg btn-danger">Bolt</a>
-                <a href="" class="btn btn-lg btn-default">Aplikáció</a>
-                <a href="" class="btn btn-lg btn-success">Oszd meg!</a>
+                <a href="" class="hu btn btn-lg btn-danger">Bolt</a>
+                <a href="" hidden class="sk btn btn-lg btn-danger">Obchod</a>
+                <a href="" class="hu btn btn-lg btn-default">Aplikáció</a>
+                <a href="" hidden class="sk btn btn-lg btn-default">Aplikácia</a>
+                <a href="" class="hu btn btn-lg btn-success">Oszd meg!</a>
+                <a href="" hidden class="sk btn btn-lg btn-success">Podiel!</a>
             </div>
         </div><!--End container-->
     </div><!--End jumbotron-->
