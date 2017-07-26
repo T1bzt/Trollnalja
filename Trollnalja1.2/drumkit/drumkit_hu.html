@@ -7,16 +7,16 @@
   <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
 </head>
 <body>
-<audio loop autoplay>
-  <source src="drumkit/sounds/RapBeat1.mp3">
-</audio>
+
+
 <div class="languages">
   <a href="../games.html" class="navbar-brand"><img src="../images/TrollnaljaLogo.png" style="float: left"></a>
 
   <a href="drumkit_sk.html"><img class="passive" src="drumkit/sounds/zaszlo_szlovakia.gif" ></a>
   <img src="drumkit/sounds/magyar%20zaszlo.png">
   <a href="drumkit_gemer.html"><img  class="passive" src="drumkit/sounds/gemer_zaszlo.jpg"></a>
-
+  <br/>
+<a href="javascript:open_window('music.html')"><img src="../images/dj.jpg" style="width: 150px"></a>	<!-- opens in a small window -->
 </div>
 
   <div class="keys">
@@ -48,6 +48,10 @@
       <kbd>J</kbd>
       <span class="sound">genyó</span>
     </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">fasznyakú</span>
+    </div>
     <!--<div data-key="75" class="key">-->
       <!--<kbd>K</kbd>-->
       <!--<span class="sound">tom</span>-->
@@ -68,9 +72,9 @@
   <audio data-key="71" src="drumkit/sounds/picsa.wav"></audio>
   <audio data-key="72" src="drumkit/sounds/geci.wav"></audio>
   <audio data-key="74" src="drumkit/sounds/genyó.wav"></audio>
-  <audio data-key="75" src="drumkit/sounds/tom.wav"></audio>
+  <!--<audio data-key="75" src="drumkit/sounds/tom.wav"></audio>-->
   <audio data-key="76" src="drumkit/sounds/tink.wav"></audio>
-
+  <audio data-key="75" src="drumkit/sounds/fasznyaku.wav"></audio>
 <script>
   function removeTransition(e) {
     if (e.propertyName !== 'transform') return;
@@ -107,6 +111,12 @@
   window.addEventListener('keydown', playSound);
 </script>
 
+<script>
+  /* needed only with the javascript link */
+  function open_window(url){
+      mywin = window.open(url,'wins','width=500,height=450,scrollbars');  // adjust stuff to suit
+  }
+</script>
 
 </body>
 </html>
