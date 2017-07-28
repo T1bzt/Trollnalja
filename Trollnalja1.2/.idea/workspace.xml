@@ -15,24 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_partials/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-              <folding>
-                <marker date="1501250804184" expanded="true" signature="4928:5141" ph="..." />
-                <marker date="1501250804184" expanded="true" signature="5293:5506" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gallery_header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_partials/gallery_header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="413">
-              <caret line="172" column="2" lean-forward="true" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="2" />
+              <caret line="172" column="2" lean-forward="false" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="2" />
               <folding>
                 <marker date="1501251445687" expanded="true" signature="6309:6522" ph="..." />
                 <marker date="1501251445687" expanded="true" signature="6674:6887" ph="..." />
@@ -40,6 +27,79 @@
                 <marker date="1501251445687" expanded="true" signature="7065:7132" ph="..." />
                 <marker date="1501251445687" expanded="true" signature="7179:7273" ph="..." />
                 <marker date="1501251445687" expanded="true" signature="7206:7273" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="games.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-425">
+              <caret line="10" column="93" lean-forward="false" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drumkit_hu.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_hu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-START.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/drumkit/index-START.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/drumkit/music.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gemer_zaszlo.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit/sounds/gemer_zaszlo.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drumkit_sk.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_sk.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="98" lean-forward="true" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drumkit_gemer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_gemer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/applications/ResponsiveImageGallery/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -107,7 +167,6 @@
         <option value="$PROJECT_DIR$/aboutSk.php" />
         <option value="$PROJECT_DIR$/about.php" />
         <option value="$PROJECT_DIR$/contacts.php" />
-        <option value="$PROJECT_DIR$/games.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/_partials/gallery_footer.php" />
         <option value="$PROJECT_DIR$/applications/ResponsiveImageGallery/gallery.html" />
@@ -115,6 +174,10 @@
         <option value="$PROJECT_DIR$/applications/ResponsiveImageGallery/gallery.php" />
         <option value="$PROJECT_DIR$/_partials/gallery_header.php" />
         <option value="$PROJECT_DIR$/applications/ResponsiveImageGallery/gallerySk.php" />
+        <option value="$PROJECT_DIR$/games.php" />
+        <option value="$PROJECT_DIR$/applications/drumkit/drumkit_hu.html" />
+        <option value="$PROJECT_DIR$/applications/drumkit/drumkit_gemer.html" />
+        <option value="$PROJECT_DIR$/applications/drumkit/drumkit_sk.html" />
       </list>
     </option>
   </component>
@@ -126,8 +189,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php_installation_&lt;7.1.4&gt;" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="674" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -168,6 +233,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trollnalja1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trollnalja1.2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="applications" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drumkit" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,17 +383,18 @@
       <workItem from="1501090018722" duration="2498000" />
       <workItem from="1501098669062" duration="2119000" />
       <workItem from="1501240680237" duration="9439000" />
-      <workItem from="1501250270799" duration="1391000" />
+      <workItem from="1501250270799" duration="2533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29679000" />
+    <option name="totallyTimeSpent" value="30821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="674" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7462006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20424597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -341,13 +425,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/applications/drumkit/index-START.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_hu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1302">
@@ -453,31 +530,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/applications/drumkit/index-START.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_front-end/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_sk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="96" lean-forward="false" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_gemer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -488,27 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/applications/drumkit/music.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_front-end/js/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_hu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="65" column="31" lean-forward="false" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/applications/ResponsiveImageGallery.php" />
     <entry file="file://$PROJECT_DIR$/_partials/footer.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -690,7 +721,7 @@
     <entry file="file://$PROJECT_DIR$/_partials/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
           <folding>
             <marker date="1501250804184" expanded="true" signature="4928:5141" ph="..." />
             <marker date="1501250804184" expanded="true" signature="5293:5506" ph="..." />
@@ -701,7 +732,7 @@
     <entry file="file://$PROJECT_DIR$/_partials/gallery_header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
-          <caret line="172" column="2" lean-forward="true" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="2" />
+          <caret line="172" column="2" lean-forward="false" selection-start-line="172" selection-start-column="2" selection-end-line="172" selection-end-column="2" />
           <folding>
             <marker date="1501251445687" expanded="true" signature="6309:6522" ph="..." />
             <marker date="1501251445687" expanded="true" signature="6674:6887" ph="..." />
@@ -726,6 +757,65 @@
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="10" column="93" lean-forward="false" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit/sounds/gemer_zaszlo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/drumkit/music.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_gemer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_sk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="98" lean-forward="true" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/drumkit/index-START.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/drumkit/drumkit_hu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

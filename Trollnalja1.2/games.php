@@ -8,7 +8,7 @@ include "_partials/header.php"
             <div class="row">
                 <article class="col-md-6">
                     <figure class="col-lg-12">
-                        <a href=""><img class="img img-responsive article-img" src="_front-end/images/LegyenOnIsGomori.jpg"></a>
+                        <a href="applications/Who-Wants-to-Be-a-Millionaire-master/index.html"><img class="img img-responsive article-img" src="_front-end/images/LegyenOnIsGomori.jpg"></a>
                         <figcaption class="article-caption"><h1 class="article-title"><a href="">Legyen Ön is gömöri!</a></h1>
                         </figcaption>
                     </figure>
