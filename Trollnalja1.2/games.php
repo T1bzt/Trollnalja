@@ -20,7 +20,7 @@ include "_partials/header.php"
 
                 <article class="col-md-6">
                     <figure class="col-lg-12">
-                        <a href=""><img class="img img-responsive article-img" src="_front-end/images/Keresztnevek.jpg"></a>
+                        <a href="applications/Name-Simulation/name_simulation.html"><img class="img img-responsive article-img" src="_front-end/images/Keresztnevek.jpg"></a>
                         <figcaption class="article-caption"><h1 class="article-title"><a href="">Gömöri név-szimulátor</a></h1>
                         </figcaption>
                     </figure>
