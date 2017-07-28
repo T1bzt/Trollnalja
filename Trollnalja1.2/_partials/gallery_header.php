@@ -114,12 +114,14 @@
                     echo '<li><a href= "../../indexSk.php">Hlavná stránka</a></li>
                           <li><a href="../../applications/ResponsiveImageGallery/gallerySk.php">Galéria</a></li>
                           <li><a href="../../gamesSk.php">Hry</a></li>
+                           <li><a href="../../contactsSk.php">Kontakty</a></li>
                           <li><a href= "../../aboutSk.php">O nás</a></li>';
                 }
                 else {
                     echo '<li><a href= "../../index.php">Főoldal</a></li>
                           <li><a href="../../applications/ResponsiveImageGallery/gallery.php">Galéria</a></li>
                           <li><a href="../../games.php">Játékok</a></li>
+                           <li><a href="../../contacts.php">Elérhetőségeink</a></li>
                           <li><a href= "../../about.php">Rólunk</a></li>';
                 }
                 ?>
