@@ -26,14 +26,14 @@
         else {
             echo '     <h3>Iratkozz fel, ha nem akarsz lemaradni semmiről!</h3>
                    <p>Írd be a neved, és email-címed</p>';
-            echo '<form action="" class="form-inline">
+            echo '<form action="php/submitEmail.php" method="get" class="form-inline">
                 <div class="form-group">
-                    <label for="subscription">Név:</label>
-                        <input type="text" class="form-control" id="subscription" placeholder="Neved...">
+                    <label for="name">Név:</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Neved...">
                 </div>
                 <div class="form-group">
                  <label for="email">Email cím:</label>
-                 <input type="text" class="form-control" id="email" placeholder="Email-címed...">
+                 <input type="text" class="form-control" id="email" name="email" placeholder="Email-címed...">
                 </div>
                 <button type="submit" id="subscribe" class="btn btn-default">Feliratkozás</button>
                  </form>
